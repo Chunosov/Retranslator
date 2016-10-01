@@ -1,0 +1,65 @@
+﻿<Window x:Class="Retranslator.View.PreferencesDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Preferences"
+        WindowStartupLocation="CenterScreen" ShowInTaskbar="False"
+        ResizeMode="NoResize" SizeToContent="WidthAndHeight"
+        Style="{StaticResource TypicalWindow}">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            
+            <Style x:Key="OptionCheckBox" TargetType="{x:Type CheckBox}">
+                <Setter Property="Margin" Value="0,0,0,6"/>    
+            </Style>
+            
+        </ResourceDictionary>
+    </Window.Resources>
+    
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <GroupBox Grid.Row="0" Header="Options" Margin="0,0,0,8" Padding="8">
+            <StackPanel >
+                <CheckBox IsChecked="{Binding ShowOpeningReport}" Style="{StaticResource OptionCheckBox}">
+                    Display opening report window
+                </CheckBox>
+                <CheckBox IsChecked="{Binding UsePhraseBook}" Style="{StaticResource OptionCheckBox}" x:Name="CheckBoxUsePhraseBook">
+                    Use Phrase Book for translation guessing
+                </CheckBox>
+                <CheckBox IsChecked="{Binding AutoTranslate}" Style="{StaticResource OptionCheckBox}" Margin="16,0,0,6"
+                          IsEnabled="{Binding ElementName=CheckBoxUsePhraseBook, Path=IsChecked}">
+                    Auto translate untranslated items using Phrase Book
+                </CheckBox>
+                <CheckBox IsChecked="{Binding AutoGrowPhraseBook}" Style="{StaticResource OptionCheckBox}" Margin="16,0,0,6"
+                          IsEnabled="{Binding ElementName=CheckBoxUsePhraseBook, Path=IsChecked}">
+                    Automatically append new translations into Phrase Book
+                </CheckBox>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Header="Place marker validation" Margin="0,0,0,8" Padding="8">
+            <StackPanel>
+                <CheckBox IsChecked="{Binding ValidateMarkersCpp}" Style="{StaticResource OptionCheckBox}">
+                    Validate C style markers (%d, %s, etc)
+                </CheckBox>
+                <CheckBox IsChecked="{Binding ValidateMarkersCSharp}" Style="{StaticResource OptionCheckBox}">
+                    Validate C# style markers ({1} .. {n})
+                </CheckBox>
+                <CheckBox IsChecked="{Binding ValidateMarkersQt}" Style="{StaticResource OptionCheckBox}">
+                    Validate Qt style markers (%1 .. %n)
+                </CheckBox>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Buttons panel -->
+        <UniformGrid Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Rows="1">
+            <Button Content="OK" Margin="0,0,4,0" Padding="30,2,30,2" IsDefault="True" Click="ButtonOkClick"/>
+            <Button Content="Cancel" Margin="4,0,0,0" Padding="30,2,30,2" IsCancel="True"/>
+        </UniformGrid>
+    </Grid>
+    
+</Window>

@@ -1,0 +1,111 @@
+﻿<Window x:Class="Retranslator.View.OpeningReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:ComponentModel="clr-namespace:System.ComponentModel;assembly=WindowsBase" 
+        Title="Differences Found" Style="{StaticResource TypicalWindow}"
+        WindowStartupLocation="CenterScreen" Width="600" Height="600"
+        ShowInTaskbar="False" ResizeMode="CanResizeWithGrip">
+    
+    <Window.Resources>
+        <CollectionViewSource x:Key="ReportSource" Source="{Binding}">
+            <CollectionViewSource.SortDescriptions>
+                <ComponentModel:SortDescription PropertyName="Type"/>
+                <ComponentModel:SortDescription PropertyName="Section"/>
+                <ComponentModel:SortDescription PropertyName="Description"/>
+            </CollectionViewSource.SortDescriptions>
+            <CollectionViewSource.GroupDescriptions>
+                <PropertyGroupDescription PropertyName="Type"/>
+                <PropertyGroupDescription PropertyName="Section"/>
+            </CollectionViewSource.GroupDescriptions>
+        </CollectionViewSource>
+
+        <ControlTemplate x:Key="SectionTemplate" TargetType="{x:Type GroupItem}">
+            <!-- Формат заголовка группы верхнего уровня -->
+            <ControlTemplate.Triggers>
+                <DataTrigger Binding="{Binding Path=IsBottomLevel}" Value="False">
+                    <Setter TargetName="GroupTitle" Property="TextBlock.FontSize" Value="9pt"/>
+                    <Setter TargetName="GroupTitle" Property="TextBlock.Background"
+                            Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+                </DataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding Path=IsBottomLevel}" Value="False"/>
+                        <Condition Binding="{Binding Path=Name}" Value="NoTranslation"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter TargetName="GroupTitle" Property="TextBlock.Text"
+                            Value="The following entries where not found and have beed added to the translation:"/>
+                </MultiDataTrigger>
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding Path=IsBottomLevel}" Value="False"/>
+                        <Condition Binding="{Binding Path=Name}" Value="ExtraTranslation"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter TargetName="GroupTitle" Property="TextBlock.Text"
+                            Value="The following entries were found excessive and deleted from the translation:"/>
+                </MultiDataTrigger>
+            </ControlTemplate.Triggers>
+            <!-- Группа элементов с заголовком -->
+            <StackPanel x:Name="GroupPanel" Margin="0,0,0,8">
+                <StackPanel.Resources>
+                    <!-- Формат заголовка группы второго уровня - название секции -->
+                    <Style TargetType="TextBlock">
+                        <Setter Property="FontWeight" Value="Bold"/>
+                        <Setter Property="FontSize" Value="11pt"/>
+                        <Setter Property="Padding" Value="8,3,8,3"/>
+                    </Style>
+                </StackPanel.Resources>
+                <!-- Заголовок группы -->
+                <TextBlock x:Name="GroupTitle" Text="{Binding Path=Name}" TextWrapping="Wrap"/>
+                <!-- Содержимое группы -->
+                <ItemsPresenter/>
+            </StackPanel>
+        </ControlTemplate>
+        
+        <!-- Формат строки отчета -->
+        <Style TargetType="{x:Type ListBoxItem}">
+            <Setter Property="Height" Value="20"/> 
+            <Setter Property="Padding" Value="16,0,0,0"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Style.Triggers>
+                <!-- Добавленные элементы отображаем зеленым -->
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsSelected}" Value="False"/>
+                        <Condition Binding="{Binding Path=Type}" Value="NoTranslation"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter Property="ListBoxItem.Foreground" Value="Green"/>
+                </MultiDataTrigger>
+                <!-- Удаленные элементы отображаем красным -->
+                <MultiDataTrigger>
+                    <MultiDataTrigger.Conditions>
+                        <Condition Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsSelected}" Value="False"/>
+                        <Condition Binding="{Binding Path=Type}" Value="ExtraTranslation"/>
+                    </MultiDataTrigger.Conditions>
+                    <Setter Property="ListBoxItem.Foreground" Value="Red"/>
+                </MultiDataTrigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True" Margin="8">
+
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="OK" Padding="32,2,32,2" IsCancel="True" IsDefault="True"/>
+        </StackPanel>
+
+        <ListBox Name="ReportList" ItemsSource="{Binding Source={StaticResource ReportSource}}"
+                 Margin="0,0,0,8" Padding="4" DisplayMemberPath="Description">
+            <ListBox.GroupStyle>
+                <GroupStyle>
+                    <GroupStyle.ContainerStyle>
+                        <Style TargetType="{x:Type GroupItem}">
+                            <Setter Property="Template" Value="{StaticResource SectionTemplate}"/>
+                        </Style>
+                    </GroupStyle.ContainerStyle>
+                </GroupStyle>
+            </ListBox.GroupStyle>
+        </ListBox>
+
+    </DockPanel>
+</Window>

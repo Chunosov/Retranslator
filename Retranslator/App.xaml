@@ -1,0 +1,109 @@
+﻿<Application x:Class="Retranslator.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="MainWindow.xaml" Startup="ApplicationStartup">
+    
+    <Application.Resources>
+
+        <Style x:Key="PanelTitle" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="11pt"/>
+            <Setter Property="Margin" Value="3,2,3,2"/>
+        </Style>
+
+        <Style x:Key="toolbarImageStyle" TargetType="Image">
+            <Setter Property="IsEnabled" 
+                    Value="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}, AncestorLevel=1}, Path=IsEnabled}"/>
+            <!--
+                NearestNeighbor ставим, чтобы четко отбражались иконки на кнопках, т.к.
+                SnapsToDevicePixels не помогает. Но это будет нормально выглядеть только 
+                при стандартном разрешении монитора 96dpi. Кое что полезное есть тут:
+                http://blogs.msdn.com/b/dwayneneed/archive/2007/10/05/blurry-bitmaps.aspx
+            -->
+            <Setter Property="RenderOptions.BitmapScalingMode" Value="NearestNeighbor"/>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="Width" Value="32"/>
+            <Setter Property="Height" Value="32"/>
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Opacity" Value="0.2"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="MenuImageStyle" TargetType="Image">
+            <Setter Property="IsEnabled" 
+                    Value="{Binding RelativeSource={RelativeSource AncestorType={x:Type MenuItem}, AncestorLevel=2}, Path=IsEnabled}"/>
+            <Setter Property="Width" Value="16"/>
+            <Setter Property="Height" Value="16"/>
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Opacity" Value="0.2"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="MessageImageStyle" TargetType="Image">
+            <Setter Property="Width" Value="48"/>
+            <Setter Property="Height" Value="48"/>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="RenderOptions.BitmapScalingMode" Value="NearestNeighbor"/>
+        </Style>
+        
+        <!--<Style x:Key="toolbarIconStyle" TargetType="Frame">
+            <Setter Property="IsEnabled" 
+                    Value="{Binding RelativeSource={RelativeSource AncestorType={x:Type Button}, AncestorLevel=1}, Path=IsEnabled}"/>
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Opacity" Value="0.2"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>-->
+
+        <Style x:Key="Icon16" TargetType="{x:Type Image}">
+            <Setter Property="RenderOptions.BitmapScalingMode" Value="NearestNeighbor"/>
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="Width" Value="16"/>
+            <Setter Property="Height" Value="16"/>
+        </Style>
+        
+        <Style TargetType="{x:Type MenuItem}">
+            <Setter Property="FontSize" Value="9pt"/>
+        </Style>
+               
+        <Style x:Key="TypicalWindow" TargetType="{x:Type Window}">
+            <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"/>
+            <Setter Property="FontSize" Value="9pt"/>
+        </Style>
+        
+        <Style TargetType="{x:Type StatusBar}">
+            <Setter Property="FontSize" Value="9pt"/>
+        </Style>
+        
+        <Style TargetType="{x:Type ToolTip}">
+            <Setter Property="FontSize" Value="9pt"/>
+            <Setter Property="Padding" Value="4"/>
+        </Style>
+
+        <Style x:Key="AlternatedListView" TargetType="{x:Type ListViewItem}">
+            <Style.Triggers>
+                <MultiTrigger>
+                    <MultiTrigger.Conditions>
+                        <Condition Property="ItemsControl.AlternationIndex" Value="1"/>
+                        <Condition Property="IsSelected" Value="False"/>
+                    </MultiTrigger.Conditions>
+                    <Setter Property="Background" Value="#FFF4F4F4"/>
+                </MultiTrigger>
+            </Style.Triggers>
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <!--<Setter Property="Height" Value="22"/>-->
+            <Setter Property="FontSize" Value="10pt"/>
+        </Style>
+
+        <Style x:Key="ListViewHiddenHeader" TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="Visibility" Value="Collapsed" />
+        </Style>
+
+    </Application.Resources>
+    
+</Application>

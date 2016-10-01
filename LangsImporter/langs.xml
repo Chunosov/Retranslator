@@ -1,0 +1,951 @@
+<?xml version="1.0"?>
+<ArrayOfLanguage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Language>
+    <Name>Afrikaans - South Africa</Name>
+    <Code>1078</Code>
+  </Language>
+  <Language>
+    <Name>Albanian - Albania</Name>
+    <Code>1052</Code>
+  </Language>
+  <Language>
+    <Name>Alsatian</Name>
+    <Code>1156</Code>
+  </Language>
+  <Language>
+    <Name>Amharic - Ethiopia</Name>
+    <Code>1118</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Saudi Arabia</Name>
+    <Code>1025</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Algeria</Name>
+    <Code>5121</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Bahrain</Name>
+    <Code>15361</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Egypt</Name>
+    <Code>3073</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Iraq</Name>
+    <Code>2049</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Jordan</Name>
+    <Code>11265</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Kuwait</Name>
+    <Code>13313</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Lebanon</Name>
+    <Code>12289</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Libya</Name>
+    <Code>4097</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Morocco</Name>
+    <Code>6145</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Oman</Name>
+    <Code>8193</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Qatar</Name>
+    <Code>16385</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Syria</Name>
+    <Code>10241</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Tunisia</Name>
+    <Code>7169</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - U.A.E.</Name>
+    <Code>14337</Code>
+  </Language>
+  <Language>
+    <Name>Arabic - Yemen</Name>
+    <Code>9217</Code>
+  </Language>
+  <Language>
+    <Name>Armenian - Armenia</Name>
+    <Code>1067</Code>
+  </Language>
+  <Language>
+    <Name>Assamese</Name>
+    <Code>1101</Code>
+  </Language>
+  <Language>
+    <Name>Azeri (Cyrillic)</Name>
+    <Code>2092</Code>
+  </Language>
+  <Language>
+    <Name>Azeri (Latin)</Name>
+    <Code>1068</Code>
+  </Language>
+  <Language>
+    <Name>Bashkir</Name>
+    <Code>1133</Code>
+  </Language>
+  <Language>
+    <Name>Basque</Name>
+    <Code>1069</Code>
+  </Language>
+  <Language>
+    <Name>Belarusian</Name>
+    <Code>1059</Code>
+  </Language>
+  <Language>
+    <Name>Bengali (India)</Name>
+    <Code>1093</Code>
+  </Language>
+  <Language>
+    <Name>Bengali (Bangladesh)</Name>
+    <Code>2117</Code>
+  </Language>
+  <Language>
+    <Name>Bosnian (Bosnia/Herzegovina)</Name>
+    <Code>5146</Code>
+  </Language>
+  <Language>
+    <Name>Breton</Name>
+    <Code>1150</Code>
+  </Language>
+  <Language>
+    <Name>Bulgarian</Name>
+    <Code>1026</Code>
+  </Language>
+  <Language>
+    <Name>Burmese</Name>
+    <Code>1109</Code>
+  </Language>
+  <Language>
+    <Name>Catalan</Name>
+    <Code>1027</Code>
+  </Language>
+  <Language>
+    <Name>Cherokee - United States</Name>
+    <Code>1116</Code>
+  </Language>
+  <Language>
+    <Name>Chinese - People's Republic of China</Name>
+    <Code>2052</Code>
+  </Language>
+  <Language>
+    <Name>Chinese - Singapore</Name>
+    <Code>4100</Code>
+  </Language>
+  <Language>
+    <Name>Chinese - Taiwan</Name>
+    <Code>1028</Code>
+  </Language>
+  <Language>
+    <Name>Chinese - Hong Kong SAR</Name>
+    <Code>3076</Code>
+  </Language>
+  <Language>
+    <Name>Chinese - Macao SAR</Name>
+    <Code>5124</Code>
+  </Language>
+  <Language>
+    <Name>Corsican</Name>
+    <Code>1155</Code>
+  </Language>
+  <Language>
+    <Name>Croatian</Name>
+    <Code>1050</Code>
+  </Language>
+  <Language>
+    <Name>Croatian (Bosnia/Herzegovina)</Name>
+    <Code>4122</Code>
+  </Language>
+  <Language>
+    <Name>Czech</Name>
+    <Code>1029</Code>
+  </Language>
+  <Language>
+    <Name>Danish</Name>
+    <Code>1030</Code>
+  </Language>
+  <Language>
+    <Name>Dari</Name>
+    <Code>1164</Code>
+  </Language>
+  <Language>
+    <Name>Divehi</Name>
+    <Code>1125</Code>
+  </Language>
+  <Language>
+    <Name>Dutch - Netherlands</Name>
+    <Code>1043</Code>
+  </Language>
+  <Language>
+    <Name>Dutch - Belgium</Name>
+    <Code>2067</Code>
+  </Language>
+  <Language>
+    <Name>Edo</Name>
+    <Code>1126</Code>
+  </Language>
+  <Language>
+    <Name>English - United States</Name>
+    <Code>1033</Code>
+  </Language>
+  <Language>
+    <Name>English - United Kingdom</Name>
+    <Code>2057</Code>
+  </Language>
+  <Language>
+    <Name>English - Australia</Name>
+    <Code>3081</Code>
+  </Language>
+  <Language>
+    <Name>English - Belize</Name>
+    <Code>10249</Code>
+  </Language>
+  <Language>
+    <Name>English - Canada</Name>
+    <Code>4105</Code>
+  </Language>
+  <Language>
+    <Name>English - Caribbean</Name>
+    <Code>9225</Code>
+  </Language>
+  <Language>
+    <Name>English - Hong Kong SAR</Name>
+    <Code>15369</Code>
+  </Language>
+  <Language>
+    <Name>English - India</Name>
+    <Code>16393</Code>
+  </Language>
+  <Language>
+    <Name>English - Indonesia</Name>
+    <Code>14345</Code>
+  </Language>
+  <Language>
+    <Name>English - Ireland</Name>
+    <Code>6153</Code>
+  </Language>
+  <Language>
+    <Name>English - Jamaica</Name>
+    <Code>8201</Code>
+  </Language>
+  <Language>
+    <Name>English - Malaysia</Name>
+    <Code>17417</Code>
+  </Language>
+  <Language>
+    <Name>English - New Zealand</Name>
+    <Code>5129</Code>
+  </Language>
+  <Language>
+    <Name>English - Philippines</Name>
+    <Code>13321</Code>
+  </Language>
+  <Language>
+    <Name>English - Singapore</Name>
+    <Code>18441</Code>
+  </Language>
+  <Language>
+    <Name>English - South Africa</Name>
+    <Code>7177</Code>
+  </Language>
+  <Language>
+    <Name>English - Trinidad</Name>
+    <Code>11273</Code>
+  </Language>
+  <Language>
+    <Name>English - Zimbabwe</Name>
+    <Code>12297</Code>
+  </Language>
+  <Language>
+    <Name>Estonian</Name>
+    <Code>1061</Code>
+  </Language>
+  <Language>
+    <Name>Faroese</Name>
+    <Code>1080</Code>
+  </Language>
+  <Language>
+    <Name>Farsi</Name>
+    <Code>1065</Code>
+  </Language>
+  <Language>
+    <Name>Filipino</Name>
+    <Code>1124</Code>
+  </Language>
+  <Language>
+    <Name>Finnish</Name>
+    <Code>1035</Code>
+  </Language>
+  <Language>
+    <Name>French - France</Name>
+    <Code>1036</Code>
+  </Language>
+  <Language>
+    <Name>French - Belgium</Name>
+    <Code>2060</Code>
+  </Language>
+  <Language>
+    <Name>French - Cameroon</Name>
+    <Code>11276</Code>
+  </Language>
+  <Language>
+    <Name>French - Canada</Name>
+    <Code>3084</Code>
+  </Language>
+  <Language>
+    <Name>French - Democratic Rep. of Congo</Name>
+    <Code>9228</Code>
+  </Language>
+  <Language>
+    <Name>French - Cote d'Ivoire</Name>
+    <Code>12300</Code>
+  </Language>
+  <Language>
+    <Name>French - Haiti</Name>
+    <Code>15372</Code>
+  </Language>
+  <Language>
+    <Name>French - Luxembourg</Name>
+    <Code>5132</Code>
+  </Language>
+  <Language>
+    <Name>French - Mali</Name>
+    <Code>13324</Code>
+  </Language>
+  <Language>
+    <Name>French - Monaco</Name>
+    <Code>6156</Code>
+  </Language>
+  <Language>
+    <Name>French - Morocco</Name>
+    <Code>14348</Code>
+  </Language>
+  <Language>
+    <Name>French - North Africa</Name>
+    <Code>58380</Code>
+  </Language>
+  <Language>
+    <Name>French - Reunion</Name>
+    <Code>8204</Code>
+  </Language>
+  <Language>
+    <Name>French - Senegal</Name>
+    <Code>10252</Code>
+  </Language>
+  <Language>
+    <Name>French - Switzerland</Name>
+    <Code>4108</Code>
+  </Language>
+  <Language>
+    <Name>French - West Indies</Name>
+    <Code>7180</Code>
+  </Language>
+  <Language>
+    <Name>Frisian - Netherlands</Name>
+    <Code>1122</Code>
+  </Language>
+  <Language>
+    <Name>Fulfulde - Nigeria</Name>
+    <Code>1127</Code>
+  </Language>
+  <Language>
+    <Name>FYRO Macedonian</Name>
+    <Code>1071</Code>
+  </Language>
+  <Language>
+    <Name>Galician</Name>
+    <Code>1110</Code>
+  </Language>
+  <Language>
+    <Name>Georgian</Name>
+    <Code>1079</Code>
+  </Language>
+  <Language>
+    <Name>German - Germany</Name>
+    <Code>1031</Code>
+  </Language>
+  <Language>
+    <Name>German - Austria</Name>
+    <Code>3079</Code>
+  </Language>
+  <Language>
+    <Name>German - Liechtenstein</Name>
+    <Code>5127</Code>
+  </Language>
+  <Language>
+    <Name>German - Luxembourg</Name>
+    <Code>4103</Code>
+  </Language>
+  <Language>
+    <Name>German - Switzerland</Name>
+    <Code>2055</Code>
+  </Language>
+  <Language>
+    <Name>Greek</Name>
+    <Code>1032</Code>
+  </Language>
+  <Language>
+    <Name>Greenlandic</Name>
+    <Code>1135</Code>
+  </Language>
+  <Language>
+    <Name>Guarani - Paraguay</Name>
+    <Code>1140</Code>
+  </Language>
+  <Language>
+    <Name>Gujarati</Name>
+    <Code>1095</Code>
+  </Language>
+  <Language>
+    <Name>Hausa - Nigeria</Name>
+    <Code>1128</Code>
+  </Language>
+  <Language>
+    <Name>Hawaiian - United States</Name>
+    <Code>1141</Code>
+  </Language>
+  <Language>
+    <Name>Hebrew</Name>
+    <Code>1037</Code>
+  </Language>
+  <Language>
+    <Name>Hindi</Name>
+    <Code>1081</Code>
+  </Language>
+  <Language>
+    <Name>Hungarian</Name>
+    <Code>1038</Code>
+  </Language>
+  <Language>
+    <Name>Ibibio - Nigeria</Name>
+    <Code>1129</Code>
+  </Language>
+  <Language>
+    <Name>Icelandic</Name>
+    <Code>1039</Code>
+  </Language>
+  <Language>
+    <Name>Igbo - Nigeria</Name>
+    <Code>1136</Code>
+  </Language>
+  <Language>
+    <Name>Indonesian</Name>
+    <Code>1057</Code>
+  </Language>
+  <Language>
+    <Name>Inuktitut</Name>
+    <Code>1117</Code>
+  </Language>
+  <Language>
+    <Name>Irish</Name>
+    <Code>2108</Code>
+  </Language>
+  <Language>
+    <Name>Italian - Italy</Name>
+    <Code>1040</Code>
+  </Language>
+  <Language>
+    <Name>Italian - Switzerland</Name>
+    <Code>2064</Code>
+  </Language>
+  <Language>
+    <Name>Japanese</Name>
+    <Code>1041</Code>
+  </Language>
+  <Language>
+    <Name>K'iche</Name>
+    <Code>1158</Code>
+  </Language>
+  <Language>
+    <Name>Kannada</Name>
+    <Code>1099</Code>
+  </Language>
+  <Language>
+    <Name>Kanuri - Nigeria</Name>
+    <Code>1137</Code>
+  </Language>
+  <Language>
+    <Name>Kashmiri</Name>
+    <Code>2144</Code>
+  </Language>
+  <Language>
+    <Name>Kashmiri (Arabic)</Name>
+    <Code>1120</Code>
+  </Language>
+  <Language>
+    <Name>Kazakh</Name>
+    <Code>1087</Code>
+  </Language>
+  <Language>
+    <Name>Khmer</Name>
+    <Code>1107</Code>
+  </Language>
+  <Language>
+    <Name>Kinyarwanda</Name>
+    <Code>1159</Code>
+  </Language>
+  <Language>
+    <Name>Konkani</Name>
+    <Code>1111</Code>
+  </Language>
+  <Language>
+    <Name>Korean</Name>
+    <Code>1042</Code>
+  </Language>
+  <Language>
+    <Name>Kyrgyz (Cyrillic)</Name>
+    <Code>1088</Code>
+  </Language>
+  <Language>
+    <Name>Lao</Name>
+    <Code>1108</Code>
+  </Language>
+  <Language>
+    <Name>Latin</Name>
+    <Code>1142</Code>
+  </Language>
+  <Language>
+    <Name>Latvian</Name>
+    <Code>1062</Code>
+  </Language>
+  <Language>
+    <Name>Lithuanian</Name>
+    <Code>1063</Code>
+  </Language>
+  <Language>
+    <Name>Luxembourgish</Name>
+    <Code>1134</Code>
+  </Language>
+  <Language>
+    <Name>Malay - Malaysia</Name>
+    <Code>1086</Code>
+  </Language>
+  <Language>
+    <Name>Malay - Brunei Darussalam</Name>
+    <Code>2110</Code>
+  </Language>
+  <Language>
+    <Name>Malayalam</Name>
+    <Code>1100</Code>
+  </Language>
+  <Language>
+    <Name>Maltese</Name>
+    <Code>1082</Code>
+  </Language>
+  <Language>
+    <Name>Manipuri</Name>
+    <Code>1112</Code>
+  </Language>
+  <Language>
+    <Name>Maori - New Zealand</Name>
+    <Code>1153</Code>
+  </Language>
+  <Language>
+    <Name>Mapudungun</Name>
+    <Code>1146</Code>
+  </Language>
+  <Language>
+    <Name>Marathi</Name>
+    <Code>1102</Code>
+  </Language>
+  <Language>
+    <Name>Mohawk</Name>
+    <Code>1148</Code>
+  </Language>
+  <Language>
+    <Name>Mongolian (Cyrillic)</Name>
+    <Code>1104</Code>
+  </Language>
+  <Language>
+    <Name>Mongolian (Mongolian)</Name>
+    <Code>2128</Code>
+  </Language>
+  <Language>
+    <Name>Nepali</Name>
+    <Code>1121</Code>
+  </Language>
+  <Language>
+    <Name>Nepali - India</Name>
+    <Code>2145</Code>
+  </Language>
+  <Language>
+    <Name>Norwegian (Bokmål)</Name>
+    <Code>1044</Code>
+  </Language>
+  <Language>
+    <Name>Norwegian (Nynorsk)</Name>
+    <Code>2068</Code>
+  </Language>
+  <Language>
+    <Name>Occitan</Name>
+    <Code>1154</Code>
+  </Language>
+  <Language>
+    <Name>Oriya</Name>
+    <Code>1096</Code>
+  </Language>
+  <Language>
+    <Name>Oromo</Name>
+    <Code>1138</Code>
+  </Language>
+  <Language>
+    <Name>Papiamentu</Name>
+    <Code>1145</Code>
+  </Language>
+  <Language>
+    <Name>Pashto</Name>
+    <Code>1123</Code>
+  </Language>
+  <Language>
+    <Name>Polish</Name>
+    <Code>1045</Code>
+  </Language>
+  <Language>
+    <Name>Portuguese - Brazil</Name>
+    <Code>1046</Code>
+  </Language>
+  <Language>
+    <Name>Portuguese - Portugal</Name>
+    <Code>2070</Code>
+  </Language>
+  <Language>
+    <Name>Punjabi</Name>
+    <Code>1094</Code>
+  </Language>
+  <Language>
+    <Name>Punjabi (Pakistan)</Name>
+    <Code>2118</Code>
+  </Language>
+  <Language>
+    <Name>Quecha - Bolivia</Name>
+    <Code>1131</Code>
+  </Language>
+  <Language>
+    <Name>Quecha - Ecuador</Name>
+    <Code>2155</Code>
+  </Language>
+  <Language>
+    <Name>Quecha - Peru</Name>
+    <Code>3179</Code>
+  </Language>
+  <Language>
+    <Name>Rhaeto-Romanic</Name>
+    <Code>1047</Code>
+  </Language>
+  <Language>
+    <Name>Romanian</Name>
+    <Code>1048</Code>
+  </Language>
+  <Language>
+    <Name>Romanian - Moldava</Name>
+    <Code>2072</Code>
+  </Language>
+  <Language>
+    <Name>Russian</Name>
+    <Code>1049</Code>
+  </Language>
+  <Language>
+    <Name>Russian - Moldava</Name>
+    <Code>2073</Code>
+  </Language>
+  <Language>
+    <Name>Sami (Lappish)</Name>
+    <Code>1083</Code>
+  </Language>
+  <Language>
+    <Name>Sanskrit</Name>
+    <Code>1103</Code>
+  </Language>
+  <Language>
+    <Name>Scottish Gaelic</Name>
+    <Code>1084</Code>
+  </Language>
+  <Language>
+    <Name>Sepedi</Name>
+    <Code>1132</Code>
+  </Language>
+  <Language>
+    <Name>Serbian (Cyrillic)</Name>
+    <Code>3098</Code>
+  </Language>
+  <Language>
+    <Name>Serbian (Latin)</Name>
+    <Code>2074</Code>
+  </Language>
+  <Language>
+    <Name>Sindhi - India</Name>
+    <Code>1113</Code>
+  </Language>
+  <Language>
+    <Name>Sindhi - Pakistan</Name>
+    <Code>2137</Code>
+  </Language>
+  <Language>
+    <Name>Sinhalese - Sri Lanka</Name>
+    <Code>1115</Code>
+  </Language>
+  <Language>
+    <Name>Slovak</Name>
+    <Code>1051</Code>
+  </Language>
+  <Language>
+    <Name>Slovenian</Name>
+    <Code>1060</Code>
+  </Language>
+  <Language>
+    <Name>Somali</Name>
+    <Code>1143</Code>
+  </Language>
+  <Language>
+    <Name>Sorbian</Name>
+    <Code>1070</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Spain (Modern Sort)</Name>
+    <Code>3082</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Spain (Traditional Sort)</Name>
+    <Code>1034</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Argentina</Name>
+    <Code>11274</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Bolivia</Name>
+    <Code>16394</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Chile</Name>
+    <Code>13322</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Colombia</Name>
+    <Code>9226</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Costa Rica</Name>
+    <Code>5130</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Dominican Republic</Name>
+    <Code>7178</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Ecuador</Name>
+    <Code>12298</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - El Salvador</Name>
+    <Code>17418</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Guatemala</Name>
+    <Code>4106</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Honduras</Name>
+    <Code>18442</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Latin America</Name>
+    <Code>22538</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Mexico</Name>
+    <Code>2058</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Nicaragua</Name>
+    <Code>19466</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Panama</Name>
+    <Code>6154</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Paraguay</Name>
+    <Code>15370</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Peru</Name>
+    <Code>10250</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Puerto Rico</Name>
+    <Code>20490</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - United States</Name>
+    <Code>21514</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Uruguay</Name>
+    <Code>14346</Code>
+  </Language>
+  <Language>
+    <Name>Spanish - Venezuela</Name>
+    <Code>8202</Code>
+  </Language>
+  <Language>
+    <Name>Sutu</Name>
+    <Code>1072</Code>
+  </Language>
+  <Language>
+    <Name>Swahili</Name>
+    <Code>1089</Code>
+  </Language>
+  <Language>
+    <Name>Swedish</Name>
+    <Code>1053</Code>
+  </Language>
+  <Language>
+    <Name>Swedish - Finland</Name>
+    <Code>2077</Code>
+  </Language>
+  <Language>
+    <Name>Syriac</Name>
+    <Code>1114</Code>
+  </Language>
+  <Language>
+    <Name>Tajik</Name>
+    <Code>1064</Code>
+  </Language>
+  <Language>
+    <Name>Tamazight (Arabic)</Name>
+    <Code>1119</Code>
+  </Language>
+  <Language>
+    <Name>Tamazight (Latin)</Name>
+    <Code>2143</Code>
+  </Language>
+  <Language>
+    <Name>Tamil</Name>
+    <Code>1097</Code>
+  </Language>
+  <Language>
+    <Name>Tatar</Name>
+    <Code>1092</Code>
+  </Language>
+  <Language>
+    <Name>Telugu</Name>
+    <Code>1098</Code>
+  </Language>
+  <Language>
+    <Name>Thai</Name>
+    <Code>1054</Code>
+  </Language>
+  <Language>
+    <Name>Tibetan - Bhutan</Name>
+    <Code>2129</Code>
+  </Language>
+  <Language>
+    <Name>Tibetan - People's Republic of China</Name>
+    <Code>1105</Code>
+  </Language>
+  <Language>
+    <Name>Tigrigna - Eritrea</Name>
+    <Code>2163</Code>
+  </Language>
+  <Language>
+    <Name>Tigrigna - Ethiopia</Name>
+    <Code>1139</Code>
+  </Language>
+  <Language>
+    <Name>Tsonga</Name>
+    <Code>1073</Code>
+  </Language>
+  <Language>
+    <Name>Tswana</Name>
+    <Code>1074</Code>
+  </Language>
+  <Language>
+    <Name>Turkish</Name>
+    <Code>1055</Code>
+  </Language>
+  <Language>
+    <Name>Turkmen</Name>
+    <Code>1090</Code>
+  </Language>
+  <Language>
+    <Name>Uighur - China</Name>
+    <Code>1152</Code>
+  </Language>
+  <Language>
+    <Name>Ukrainian</Name>
+    <Code>1058</Code>
+  </Language>
+  <Language>
+    <Name>Urdu</Name>
+    <Code>1056</Code>
+  </Language>
+  <Language>
+    <Name>Urdu - India</Name>
+    <Code>2080</Code>
+  </Language>
+  <Language>
+    <Name>Uzbek (Cyrillic)</Name>
+    <Code>2115</Code>
+  </Language>
+  <Language>
+    <Name>Uzbek (Latin)</Name>
+    <Code>1091</Code>
+  </Language>
+  <Language>
+    <Name>Venda</Name>
+    <Code>1075</Code>
+  </Language>
+  <Language>
+    <Name>Vietnamese</Name>
+    <Code>1066</Code>
+  </Language>
+  <Language>
+    <Name>Welsh</Name>
+    <Code>1106</Code>
+  </Language>
+  <Language>
+    <Name>Wolof</Name>
+    <Code>1160</Code>
+  </Language>
+  <Language>
+    <Name>Xhosa</Name>
+    <Code>1076</Code>
+  </Language>
+  <Language>
+    <Name>Yakut</Name>
+    <Code>1157</Code>
+  </Language>
+  <Language>
+    <Name>Yi</Name>
+    <Code>1144</Code>
+  </Language>
+  <Language>
+    <Name>Yiddish</Name>
+    <Code>1085</Code>
+  </Language>
+  <Language>
+    <Name>Yoruba</Name>
+    <Code>1130</Code>
+  </Language>
+  <Language>
+    <Name>Zulu</Name>
+    <Code>1077</Code>
+  </Language>
+</ArrayOfLanguage>

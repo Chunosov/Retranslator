@@ -1,0 +1,247 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:coll="clr-namespace:System.Collections;assembly=mscorlib"
+    xmlns:local="clr-namespace:Retranslator">
+
+    <coll:ArrayList x:Key="LanguageList">
+        <local:Language Title="Afrikaans - South Africa" Code="1078"/>
+        <local:Language Title="Albanian - Albania" Code="1052"/>
+        <local:Language Title="Alsatian" Code="1156"/>
+        <local:Language Title="Amharic - Ethiopia" Code="1118"/>
+        <local:Language Title="Arabic - Saudi Arabia" Code="1025"/>
+        <local:Language Title="Arabic - Algeria" Code="5121"/>
+        <local:Language Title="Arabic - Bahrain" Code="15361"/>
+        <local:Language Title="Arabic - Egypt" Code="3073"/>
+        <local:Language Title="Arabic - Iraq" Code="2049"/>
+        <local:Language Title="Arabic - Jordan" Code="11265"/>
+        <local:Language Title="Arabic - Kuwait" Code="13313"/>
+        <local:Language Title="Arabic - Lebanon" Code="12289"/>
+        <local:Language Title="Arabic - Libya" Code="4097"/>
+        <local:Language Title="Arabic - Morocco" Code="6145"/>
+        <local:Language Title="Arabic - Oman" Code="8193"/>
+        <local:Language Title="Arabic - Qatar" Code="16385"/>
+        <local:Language Title="Arabic - Syria" Code="10241"/>
+        <local:Language Title="Arabic - Tunisia" Code="7169"/>
+        <local:Language Title="Arabic - U.A.E." Code="14337"/>
+        <local:Language Title="Arabic - Yemen" Code="9217"/>
+        <local:Language Title="Armenian - Armenia" Code="1067"/>
+        <local:Language Title="Assamese" Code="1101"/>
+        <local:Language Title="Azeri (Cyrillic)" Code="2092"/>
+        <local:Language Title="Azeri (Latin)" Code="1068"/>
+        <local:Language Title="Bashkir" Code="1133"/>
+        <local:Language Title="Basque" Code="1069"/>
+        <local:Language Title="Belarusian" Code="1059"/>
+        <local:Language Title="Bengali (India)" Code="1093"/>
+        <local:Language Title="Bengali (Bangladesh)" Code="2117"/>
+        <local:Language Title="Bosnian (Bosnia/Herzegovina)" Code="5146"/>
+        <local:Language Title="Breton" Code="1150"/>
+        <local:Language Title="Bulgarian" Code="1026"/>
+        <local:Language Title="Burmese" Code="1109"/>
+        <local:Language Title="Catalan" Code="1027"/>
+        <local:Language Title="Cherokee - United States" Code="1116"/>
+        <local:Language Title="Chinese - People's Republic of China" Code="2052"/>
+        <local:Language Title="Chinese - Singapore" Code="4100"/>
+        <local:Language Title="Chinese - Taiwan" Code="1028"/>
+        <local:Language Title="Chinese - Hong Kong SAR" Code="3076"/>
+        <local:Language Title="Chinese - Macao SAR" Code="5124"/>
+        <local:Language Title="Corsican" Code="1155"/>
+        <local:Language Title="Croatian" Code="1050"/>
+        <local:Language Title="Croatian (Bosnia/Herzegovina)" Code="4122"/>
+        <local:Language Title="Czech" Code="1029"/>
+        <local:Language Title="Danish" Code="1030"/>
+        <local:Language Title="Dari" Code="1164"/>
+        <local:Language Title="Divehi" Code="1125"/>
+        <local:Language Title="Dutch - Netherlands" Code="1043"/>
+        <local:Language Title="Dutch - Belgium" Code="2067"/>
+        <local:Language Title="Edo" Code="1126"/>
+        <local:Language Title="English - United States" Code="1033"/>
+        <local:Language Title="English - United Kingdom" Code="2057"/>
+        <local:Language Title="English - Australia" Code="3081"/>
+        <local:Language Title="English - Belize" Code="10249"/>
+        <local:Language Title="English - Canada" Code="4105"/>
+        <local:Language Title="English - Caribbean" Code="9225"/>
+        <local:Language Title="English - Hong Kong SAR" Code="15369"/>
+        <local:Language Title="English - India" Code="16393"/>
+        <local:Language Title="English - Indonesia" Code="14345"/>
+        <local:Language Title="English - Ireland" Code="6153"/>
+        <local:Language Title="English - Jamaica" Code="8201"/>
+        <local:Language Title="English - Malaysia" Code="17417"/>
+        <local:Language Title="English - New Zealand" Code="5129"/>
+        <local:Language Title="English - Philippines" Code="13321"/>
+        <local:Language Title="English - Singapore" Code="18441"/>
+        <local:Language Title="English - South Africa" Code="7177"/>
+        <local:Language Title="English - Trinidad" Code="11273"/>
+        <local:Language Title="English - Zimbabwe" Code="12297"/>
+        <local:Language Title="Estonian" Code="1061"/>
+        <local:Language Title="Faroese" Code="1080"/>
+        <local:Language Title="Farsi" Code="1065"/>
+        <local:Language Title="Filipino" Code="1124"/>
+        <local:Language Title="Finnish" Code="1035"/>
+        <local:Language Title="French - France" Code="1036"/>
+        <local:Language Title="French - Belgium" Code="2060"/>
+        <local:Language Title="French - Cameroon" Code="11276"/>
+        <local:Language Title="French - Canada" Code="3084"/>
+        <local:Language Title="French - Democratic Rep. of Congo" Code="9228"/>
+        <local:Language Title="French - Cote d'Ivoire" Code="12300"/>
+        <local:Language Title="French - Haiti" Code="15372"/>
+        <local:Language Title="French - Luxembourg" Code="5132"/>
+        <local:Language Title="French - Mali" Code="13324"/>
+        <local:Language Title="French - Monaco" Code="6156"/>
+        <local:Language Title="French - Morocco" Code="14348"/>
+        <local:Language Title="French - North Africa" Code="58380"/>
+        <local:Language Title="French - Reunion" Code="8204"/>
+        <local:Language Title="French - Senegal" Code="10252"/>
+        <local:Language Title="French - Switzerland" Code="4108"/>
+        <local:Language Title="French - West Indies" Code="7180"/>
+        <local:Language Title="Frisian - Netherlands" Code="1122"/>
+        <local:Language Title="Fulfulde - Nigeria" Code="1127"/>
+        <local:Language Title="FYRO Macedonian" Code="1071"/>
+        <local:Language Title="Galician" Code="1110"/>
+        <local:Language Title="Georgian" Code="1079"/>
+        <local:Language Title="German - Germany" Code="1031"/>
+        <local:Language Title="German - Austria" Code="3079"/>
+        <local:Language Title="German - Liechtenstein" Code="5127"/>
+        <local:Language Title="German - Luxembourg" Code="4103"/>
+        <local:Language Title="German - Switzerland" Code="2055"/>
+        <local:Language Title="Greek" Code="1032"/>
+        <local:Language Title="Greenlandic" Code="1135"/>
+        <local:Language Title="Guarani - Paraguay" Code="1140"/>
+        <local:Language Title="Gujarati" Code="1095"/>
+        <local:Language Title="Hausa - Nigeria" Code="1128"/>
+        <local:Language Title="Hawaiian - United States" Code="1141"/>
+        <local:Language Title="Hebrew" Code="1037"/>
+        <local:Language Title="Hindi" Code="1081"/>
+        <local:Language Title="Hungarian" Code="1038"/>
+        <local:Language Title="Ibibio - Nigeria" Code="1129"/>
+        <local:Language Title="Icelandic" Code="1039"/>
+        <local:Language Title="Igbo - Nigeria" Code="1136"/>
+        <local:Language Title="Indonesian" Code="1057"/>
+        <local:Language Title="Inuktitut" Code="1117"/>
+        <local:Language Title="Irish" Code="2108"/>
+        <local:Language Title="Italian - Italy" Code="1040"/>
+        <local:Language Title="Italian - Switzerland" Code="2064"/>
+        <local:Language Title="Japanese" Code="1041"/>
+        <local:Language Title="K'iche" Code="1158"/>
+        <local:Language Title="Kannada" Code="1099"/>
+        <local:Language Title="Kanuri - Nigeria" Code="1137"/>
+        <local:Language Title="Kashmiri" Code="2144"/>
+        <local:Language Title="Kashmiri (Arabic)" Code="1120"/>
+        <local:Language Title="Kazakh" Code="1087"/>
+        <local:Language Title="Khmer" Code="1107"/>
+        <local:Language Title="Kinyarwanda" Code="1159"/>
+        <local:Language Title="Konkani" Code="1111"/>
+        <local:Language Title="Korean" Code="1042"/>
+        <local:Language Title="Kyrgyz (Cyrillic)" Code="1088"/>
+        <local:Language Title="Lao" Code="1108"/>
+        <local:Language Title="Latin" Code="1142"/>
+        <local:Language Title="Latvian" Code="1062"/>
+        <local:Language Title="Lithuanian" Code="1063"/>
+        <local:Language Title="Luxembourgish" Code="1134"/>
+        <local:Language Title="Malay - Malaysia" Code="1086"/>
+        <local:Language Title="Malay - Brunei Darussalam" Code="2110"/>
+        <local:Language Title="Malayalam" Code="1100"/>
+        <local:Language Title="Maltese" Code="1082"/>
+        <local:Language Title="Manipuri" Code="1112"/>
+        <local:Language Title="Maori - New Zealand" Code="1153"/>
+        <local:Language Title="Mapudungun" Code="1146"/>
+        <local:Language Title="Marathi" Code="1102"/>
+        <local:Language Title="Mohawk" Code="1148"/>
+        <local:Language Title="Mongolian (Cyrillic)" Code="1104"/>
+        <local:Language Title="Mongolian (Mongolian)" Code="2128"/>
+        <local:Language Title="Nepali" Code="1121"/>
+        <local:Language Title="Nepali - India" Code="2145"/>
+        <local:Language Title="Norwegian (BokmГҐl)" Code="1044"/>
+        <local:Language Title="Norwegian (Nynorsk)" Code="2068"/>
+        <local:Language Title="Occitan" Code="1154"/>
+        <local:Language Title="Oriya" Code="1096"/>
+        <local:Language Title="Oromo" Code="1138"/>
+        <local:Language Title="Papiamentu" Code="1145"/>
+        <local:Language Title="Pashto" Code="1123"/>
+        <local:Language Title="Polish" Code="1045"/>
+        <local:Language Title="Portuguese - Brazil" Code="1046"/>
+        <local:Language Title="Portuguese - Portugal" Code="2070"/>
+        <local:Language Title="Punjabi" Code="1094"/>
+        <local:Language Title="Punjabi (Pakistan)" Code="2118"/>
+        <local:Language Title="Quecha - Bolivia" Code="1131"/>
+        <local:Language Title="Quecha - Ecuador" Code="2155"/>
+        <local:Language Title="Quecha - Peru" Code="3179"/>
+        <local:Language Title="Rhaeto-Romanic" Code="1047"/>
+        <local:Language Title="Romanian" Code="1048"/>
+        <local:Language Title="Romanian - Moldava" Code="2072"/>
+        <local:Language Title="Russian" Code="1049"/>
+        <local:Language Title="Russian - Moldava" Code="2073"/>
+        <local:Language Title="Sami (Lappish)" Code="1083"/>
+        <local:Language Title="Sanskrit" Code="1103"/>
+        <local:Language Title="Scottish Gaelic" Code="1084"/>
+        <local:Language Title="Sepedi" Code="1132"/>
+        <local:Language Title="Serbian (Cyrillic)" Code="3098"/>
+        <local:Language Title="Serbian (Latin)" Code="2074"/>
+        <local:Language Title="Sindhi - India" Code="1113"/>
+        <local:Language Title="Sindhi - Pakistan" Code="2137"/>
+        <local:Language Title="Sinhalese - Sri Lanka" Code="1115"/>
+        <local:Language Title="Slovak" Code="1051"/>
+        <local:Language Title="Slovenian" Code="1060"/>
+        <local:Language Title="Somali" Code="1143"/>
+        <local:Language Title="Sorbian" Code="1070"/>
+        <local:Language Title="Spanish - Spain (Modern Sort)" Code="3082"/>
+        <local:Language Title="Spanish - Spain (Traditional Sort)" Code="1034"/>
+        <local:Language Title="Spanish - Argentina" Code="11274"/>
+        <local:Language Title="Spanish - Bolivia" Code="16394"/>
+        <local:Language Title="Spanish - Chile" Code="13322"/>
+        <local:Language Title="Spanish - Colombia" Code="9226"/>
+        <local:Language Title="Spanish - Costa Rica" Code="5130"/>
+        <local:Language Title="Spanish - Dominican Republic" Code="7178"/>
+        <local:Language Title="Spanish - Ecuador" Code="12298"/>
+        <local:Language Title="Spanish - El Salvador" Code="17418"/>
+        <local:Language Title="Spanish - Guatemala" Code="4106"/>
+        <local:Language Title="Spanish - Honduras" Code="18442"/>
+        <local:Language Title="Spanish - Latin America" Code="22538"/>
+        <local:Language Title="Spanish - Mexico" Code="2058"/>
+        <local:Language Title="Spanish - Nicaragua" Code="19466"/>
+        <local:Language Title="Spanish - Panama" Code="6154"/>
+        <local:Language Title="Spanish - Paraguay" Code="15370"/>
+        <local:Language Title="Spanish - Peru" Code="10250"/>
+        <local:Language Title="Spanish - Puerto Rico" Code="20490"/>
+        <local:Language Title="Spanish - United States" Code="21514"/>
+        <local:Language Title="Spanish - Uruguay" Code="14346"/>
+        <local:Language Title="Spanish - Venezuela" Code="8202"/>
+        <local:Language Title="Sutu" Code="1072"/>
+        <local:Language Title="Swahili" Code="1089"/>
+        <local:Language Title="Swedish" Code="1053"/>
+        <local:Language Title="Swedish - Finland" Code="2077"/>
+        <local:Language Title="Syriac" Code="1114"/>
+        <local:Language Title="Tajik" Code="1064"/>
+        <local:Language Title="Tamazight (Arabic)" Code="1119"/>
+        <local:Language Title="Tamazight (Latin)" Code="2143"/>
+        <local:Language Title="Tamil" Code="1097"/>
+        <local:Language Title="Tatar" Code="1092"/>
+        <local:Language Title="Telugu" Code="1098"/>
+        <local:Language Title="Thai" Code="1054"/>
+        <local:Language Title="Tibetan - Bhutan" Code="2129"/>
+        <local:Language Title="Tibetan - People's Republic of China" Code="1105"/>
+        <local:Language Title="Tigrigna - Eritrea" Code="2163"/>
+        <local:Language Title="Tigrigna - Ethiopia" Code="1139"/>
+        <local:Language Title="Tsonga" Code="1073"/>
+        <local:Language Title="Tswana" Code="1074"/>
+        <local:Language Title="Turkish" Code="1055"/>
+        <local:Language Title="Turkmen" Code="1090"/>
+        <local:Language Title="Uighur - China" Code="1152"/>
+        <local:Language Title="Ukrainian" Code="1058"/>
+        <local:Language Title="Urdu" Code="1056"/>
+        <local:Language Title="Urdu - India" Code="2080"/>
+        <local:Language Title="Uzbek (Cyrillic)" Code="2115"/>
+        <local:Language Title="Uzbek (Latin)" Code="1091"/>
+        <local:Language Title="Venda" Code="1075"/>
+        <local:Language Title="Vietnamese" Code="1066"/>
+        <local:Language Title="Welsh" Code="1106"/>
+        <local:Language Title="Wolof" Code="1160"/>
+        <local:Language Title="Xhosa" Code="1076"/>
+        <local:Language Title="Yakut" Code="1157"/>
+        <local:Language Title="Yi" Code="1144"/>
+        <local:Language Title="Yiddish" Code="1085"/>
+        <local:Language Title="Yoruba" Code="1130"/>
+        <local:Language Title="Zulu" Code="1077"/>
+    </coll:ArrayList>
+
+</ResourceDictionary>

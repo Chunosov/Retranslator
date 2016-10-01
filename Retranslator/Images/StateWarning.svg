@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="450"
+   height="450"
+   id="OrangeQuestionMark"
+   version="1.1"
+   inkscape:version="0.48.1 "
+   sodipodi:docname="StateNone.svg"
+   inkscape:export-filename="D:\Projects0\Retranslator\Retranslator\Images\StateWarning.png"
+   inkscape:export-xdpi="3.2"
+   inkscape:export-ydpi="3.2">
+  <metadata
+     id="metadata3101">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3099" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1246"
+     inkscape:window-height="860"
+     id="namedview3097"
+     showgrid="false"
+     inkscape:zoom="1.3688889"
+     inkscape:cx="236.46948"
+     inkscape:cy="218.53745"
+     inkscape:window-x="236"
+     inkscape:window-y="124"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="OrangeQuestionMark" />
+  <path
+     style="fill:#ffa500;fill-opacity:1;stroke:#4b0000;stroke-width:10;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 210.93221,279.40904 c -47.39137,-90.0929 -91.50872,-264.729747 0,-264.799338 91.50872,-0.06959 43.37209,178.759868 0,264.799338 z m 0,32.69754 c 31.75728,-0.55792 50.46417,21.18919 50.40105,49.13531 -0.0631,27.94612 -15.32435,51.09634 -50.40105,50.98536 -35.0767,-0.11098 -53.6269,-25.22354 -52.73115,-50.98536 0.89575,-25.76182 20.97387,-48.57739 52.73115,-49.13531 z"
+     id="QuestionMark"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="czczzzzz" />
+</svg>

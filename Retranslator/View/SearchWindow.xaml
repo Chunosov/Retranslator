@@ -1,0 +1,30 @@
+﻿<Window x:Class="Retranslator.ViewModel.SearchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Search" 
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" SizeToContent="WidthAndHeight"
+        ShowInTaskbar="False" Closed="WindowClosed"
+        Style="{StaticResource TypicalWindow}" Topmost="True" WindowStyle="ToolWindow">
+    
+    <StackPanel Margin="6">
+        <TextBlock Text="Text to find:"/>
+        <TextBox Name="PatternInput" Margin="0,3,0,0" 
+                 Text="{Binding Path=Pattern, UpdateSourceTrigger=PropertyChanged}"/>
+        
+        <GroupBox Header="Search Options" Margin="0,12,0,0">
+            <StackPanel Margin="6,6,6,0">
+                <CheckBox Margin="0,0,0,6" IsChecked="{Binding Path=CaseSensetive}">Case sensitive</CheckBox>
+                <CheckBox Margin="0,0,0,6" IsChecked="{Binding Path=WholeWord}">Whole word</CheckBox>
+                <CheckBox Margin="0,0,0,6" IsChecked="{Binding Path=Backward}">Search backward</CheckBox>
+                <CheckBox Margin="0,0,0,6" IsChecked="{Binding Path=ThroughIds}" IsEnabled="False">Search entry names</CheckBox>
+                <CheckBox Margin="0,0,0,6" IsChecked="{Binding Path=ThroughSources}">Search original values</CheckBox>
+                <CheckBox Margin="0,0,0,6" IsChecked="{Binding Path=ThroughTranslations}" IsEnabled="False">Search translated values</CheckBox>
+            </StackPanel>
+        </GroupBox>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Padding="24,2,24,2" Click="FindNextClick" IsDefault="True">Find next</Button>
+        </StackPanel>
+    </StackPanel>
+    
+</Window>
